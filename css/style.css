@@ -1,0 +1,604 @@
+/* 
+ * style.css
+ * @version 1.0.1
+ * Maksa988 (maksa988.tech)
+ */
+
+body {
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    color: #282828;
+    font-size: 0px;
+    padding: 0;
+    margin: 0;
+    background: #f1f1f1 url("../images/bg.png") no-repeat center top;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.clear {
+    clear: both;
+}
+
+.container {
+    width: 1070px;
+    margin: 0 auto;
+}
+
+/*  */
+
+header {
+    position: relative;
+    padding-top: 20px;
+}
+.copy{
+	opacity: .8;
+    margin-top: 25px;
+    margin-left: 475px;
+    padding-top: 59px;
+    width: 401px;
+    height: 86px;
+    color: white;
+    font-size: 12.5px;
+    background-image: url(http://dubai-rp.ru/images/logo-footer-advance.2c91d789dfe3.png);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+}
+header a.logo {
+    width: 153px;
+    height: 56px;
+    background: url("../images/logo.png") no-repeat center;
+    float: left;
+    margin-left: 75px;
+}
+
+header ul.nav-menu {
+    float: right;
+    list-style: none;
+    margin-right: 50px;
+    padding: 17px 0px;
+}
+
+header ul.nav-menu li {
+    display: inline-block;
+    margin: 0 35px;
+}
+
+header ul.nav-menu li a {
+    text-decoration: none;
+    color: #282828;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    transition: 0.7s;
+}
+
+header ul.nav-menu li a::after {
+    content: "";
+    position: relative;
+    border: 2px solid transparent;
+    width: 77%;
+    height: 9px;
+    display: block;
+    border-top: none;
+    margin: 0 auto;
+    transition: 0.7s;
+}
+
+header ul.nav-menu li a::before {
+    content: "";
+    position: relative;
+    border: 2px solid transparent;
+    width: 77%;
+    height: 9px;
+    display: block;
+    border-bottom: none;
+    margin: 0 auto;
+    transition: 0.7s;
+}
+
+header ul.nav-menu li a:hover,
+header ul.nav-menu li a:focus,
+header ul.nav-menu li.active a {
+    color: #d14747;
+    transition: 0.7s;
+}
+
+header ul.nav-menu li a:hover::after,
+header ul.nav-menu li a:focus::after,
+header ul.nav-menu li.active a::after {
+    border-color: #d14747;
+    transition: 0.7s;
+}
+
+header ul.nav-menu li a:hover::before,
+header ul.nav-menu li a:focus::before,
+header ul.nav-menu li.active a::before {
+    border-color: #d14747;
+    transition: 0.7s;    
+}
+
+header .header-logo {
+    position: relative;
+    display: block;
+    width: 1057px;
+    height: 795px;
+    background: url("../images/head_logo.png") no-repeat center;
+    margin: 0 auto;
+    top: 170px;
+    left: -65px;
+}
+
+/*  */
+
+main {
+    margin-top: 200px;
+    display: block;
+    position: relative;
+}
+
+main .block-name {
+    text-align: center;
+}
+
+main .block-name p {
+    color: #d14747;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: auto;
+    display: inline-block;
+}
+
+main .block-name p::after {
+    content: "";
+    position: relative;
+    border: 6px solid #d14747;
+    width: 70%;
+    height: 35px;
+    display: block;
+    border-top: none;
+    margin: 0 auto;
+    top: 6px;
+}
+
+main .block-name p::before {
+    content: "";
+    position: relative;
+    border: 6px solid #d14747;
+    width: 70%;
+    height: 40px;
+    display: block;
+    border-bottom: none;
+    margin: 0 auto;
+    bottom: px;
+}
+
+main .donate-block {
+    width: 547px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+main .donate-block form {
+    float: left;
+    width: 320px;
+}
+
+main .donate-block form label {
+    font-size: 18px;
+    color: #d14747;
+    font-weight: bold;
+    display: block;
+}
+
+main .donate-block form input {
+    border: 2px solid #dad7d7;
+    outline: none;
+    padding: 16px 16px;
+    border-radius: 3px;
+    font-size: 16px;
+    color: #000;
+    width: 284px;
+    background: #fff;
+    margin: 25px 0;
+    transition: 0.5s;
+}
+
+main .donate-block form input:hover,
+main .donate-block form input:focus {
+    transition: 0.5s;
+
+    -webkit-box-shadow: 0px 0px 61px 1px rgba(209, 71, 71, 0.3);
+    -moz-box-shadow: 0px 0px 61px 1px rgba(209, 71, 71, 0.3);
+    box-shadow: 0px 0px 61px 1px rgba(209, 71, 71, 0.3);
+}
+
+main .donate-block form .button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+main .donate-block form button {
+    color: #fff;
+    background: #d14747;
+    text-align: center;
+    width: 118px;
+    border: none;
+    padding: 15px 0px;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+main .donate-block form button:hover,
+main .donate-block form button:focus {
+    -webkit-box-shadow: 0px 0px 61px 1px rgba(209, 71, 71, 0.5);
+    -moz-box-shadow: 0px 0px 61px 1px rgba(209, 71, 71, 0.5);
+    box-shadow: 0px 0px 61px 1px rgba(209, 71, 71, 0.5);
+}
+
+main .donate-block .group-buttons {
+    float: left;
+    padding-top: 20px;
+    margin-left: 90px;
+}
+
+main .donate-block .group-buttons a {
+    display: block;
+    color: #fff;
+    background: #d14747;
+    text-align: center;
+    width: 130px;
+    border: none;
+	font-size:16px;
+    padding: 15px 0px;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: 0.7s;
+    margin-top: 40px;
+}
+
+main .donate-block .group-buttons a[disabled] {
+    opacity: 0.6;
+    cursor: no-drop;
+}
+
+main .donate-block .group-buttons a[disabled]:hover,
+main .donate-block .group-buttons a[disabled]:focus {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+main .donate-block .group-buttons a:hover,
+main .donate-block .group-buttons a:focus {
+    -webkit-box-shadow: 0px 0px 61px 1px rgba(209, 71, 71, 0.5);
+    -moz-box-shadow: 0px 0px 61px 1px rgba(209, 71, 71, 0.5);
+    box-shadow: 0px 0px 61px 1px rgba(209, 71, 71, 0.5);
+}
+
+main .permisions {
+    background: url("../images/permisions.png") no-repeat center;
+    width: 1174px;
+    height: 311px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    left: -50px;
+    margin-top: 100px;
+    margin-bottom: 230px;
+}
+
+main .online-block {
+    text-align: center;
+    position: relative;
+    margin-top: 100px;
+}
+
+main .online-block h4 {
+    text-transform: uppercase;
+    font-size: 48px;
+    color: #d14747;
+    padding: 0;
+    margin: 0;
+}
+
+main .online-block .progress {
+    position: relative;
+    background: #d14747;
+    width: 315px;
+    height: 4px;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+main .online-block .progress .progress-bar {
+    position: relative;
+    background: #d14747;
+    height: 8px;
+    top: -2px;
+    transition: 0.5s;
+}
+
+main .online-block p {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: #d14747;
+}
+
+main .connect-block {
+    text-align: center;
+    position: relative;
+    margin-top: 200px;    
+    margin-bottom: 200px;
+}
+
+main .connect-block h3 {
+    color: #d14747;
+    font-size: 48px;
+    padding: 0;
+    width: 600px;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+
+main .connect-block h3 i {
+    font-weight: bold;
+}
+
+main .connect-block a {
+    background: #d14747;
+    display: block;
+    text-align: center;
+    width: 157px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 52px 0px;
+    transition: 0.7s;
+}
+
+main .connect-block a:hover,
+main .connect-block a:focus {
+    -webkit-box-shadow: 0px 0px 61px 1px rgba(209, 71, 71, 0.5);
+    -moz-box-shadow: 0px 0px 61px 1px rgba(209, 71, 71, 0.5);
+    box-shadow: 0px 0px 61px 1px rgba(209, 71, 71, 0.5);
+}
+
+main .connect-block a p {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+/*  */
+
+footer {
+    margin-bottom: 111px;
+    position: relative;
+    top: 69px;
+}
+
+footer a.logo {
+    width: 153px;
+    height: 56px;
+    background: url("../images/logo-white.png") no-repeat center;
+    float: left;
+    margin-left: 75px;
+}
+
+footer ul.nav-menu {
+    float: left;
+    list-style: none;
+    margin-right: 50px;
+    padding: 12px 0px;
+    margin-left: 166px;
+}
+
+footer ul.nav-menu li {
+    display: inline-block;
+    margin: 0 35px;
+}
+
+footer ul.nav-menu li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    transition: 0.7s;
+}
+
+footer ul.nav-menu li a::after {
+    content: "";
+    position: relative;
+    border: 2px solid transparent;
+    width: 77%;
+    height: 9px;
+    display: block;
+    border-top: none;
+    margin: 0 auto;
+    transition: 0.7s;
+}
+
+footer ul.nav-menu li a::before {
+    content: "";
+    position: relative;
+    border: 2px solid transparent;
+    width: 77%;
+    height: 9px;
+    display: block;
+    border-bottom: none;
+    margin: 0 auto;
+    transition: 0.7s;
+}
+
+footer ul.nav-menu li a:hover,
+footer ul.nav-menu li a:focus,
+footer ul.nav-menu li.active a {
+    color: #d14747;
+    transition: 0.7s;
+}
+
+footer ul.nav-menu li a:hover::after,
+footer ul.nav-menu li a:focus::after,
+footer ul.nav-menu li.active a::after {
+    border-color: #d14747;
+    transition: 0.7s;
+}
+
+footer ul.nav-menu li a:hover::before,
+footer ul.nav-menu li a:focus::before,
+footer ul.nav-menu li.active a::before {
+    border-color: #d14747;
+    transition: 0.7s;    
+}
+
+footer .watermark {
+    width: 94px;
+    height: 70px;
+    background: url("http://dubai-rp.ru/images/watermark.png") no-repeat center;
+    display: block;
+    float: right;
+    margin-right: 80px;
+}
+
+/*  */
+
+.modals {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+
+    background: rgba(0, 0, 0, 0.8);
+
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    z-index: 1050;
+
+    display: none;
+}
+
+.modals.opened {
+    display: block;
+}
+
+body.modal-open {
+    overflow: hidden;
+}
+
+.modals .modal {
+    position: relative;
+
+    max-width: 662px;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 50px;
+
+    background: #fff;
+
+    -webkit-box-shadow: 0px 0px 61px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 61px -12px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 61px -12px rgba(0,0,0,0.75);
+}
+
+.modals .modal.fade {
+    opacity: 0;
+    transition: 1s;
+}
+
+.modals .modal.fade.in {
+    opacity: 1;
+    transition: 1s;
+}
+
+.modals .modal a.close-modal {
+    position: absolute;
+    right: 15px;
+	font-size:15px;
+    top: 15px;
+    color: #9d9d9d;
+    font-weight: bold;
+}
+
+.modals .modal .modal-header {
+    background: #f1f1f1;
+    text-align: center;
+    padding: 35px 0px;
+}
+
+.modals .modal .modal-header h2 {
+    color: #282828;
+    padding: 0;
+    margin: 0;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.modals .modal .modal-body {
+    padding: 35px 15px 15px;
+}
+
+/*  */
+
+.modals .modal.howtoModal .modal-body ol {
+    list-style-type: none;
+    counter-reset: num;
+    margin: 0;
+    padding: 0px 52px;
+    margin-bottom: 20px;
+}
+
+.modals .modal.howtoModal .modal-body ol li {
+    font-size: 18px;
+}
+
+.modals .modal.howtoModal .modal-body ol li::before {
+    content: counter(num) '. ';
+    counter-increment: num;
+    color: #d14747;
+}
+
+.modals .modal.permisionsModal {
+    top: -250px;
+}
+
+.modals .modal.permisionsModal .modal-body {
+    font-size: 16px;
+    padding: 0px 50px;
+    padding-bottom: 30px;
+}
+
+.modals .modal.permisionsModal .modal-body h5 {
+    color: #d14747;
+    font-size: 16px;
+}
+
+.modals .modal.permisionsModal .modal-body p {
+    color: #282828;
+}
